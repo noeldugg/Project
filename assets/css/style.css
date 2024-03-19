@@ -14,7 +14,9 @@ body {
     color: #3a3a3a;
     font-family: sans-serif;
 }
-
+h1 {
+ font-family: 'Oswald', sans-serif;
+}
 /*Header*/
 header {
     background-color: lightcoral;
