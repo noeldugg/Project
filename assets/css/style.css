@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 .hidden-heading {
     display: none;
-    
+
 }
 
 #menu {
@@ -255,4 +255,12 @@ color: #3a3a3a;
 }
 #times h3 {
     color: #fafafa;
+}
+#photos img {
+    width: 100%;
+    line-height: 1em;
+    
+}
+#photos {
+    line-height: 0;
 }
