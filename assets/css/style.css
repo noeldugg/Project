@@ -125,6 +125,12 @@ font-size: 160%;
 padding: 5%;
 color: #3a3a3a;
 }
+@media screen and  (min-width: 576px){
+   #photo {
+     column-count: 2;
+     column-gap: 0;
+   }
+}
 @media screen and  (min-width: 768px) {
  nav {
     display: block;
@@ -208,10 +214,16 @@ color: #3a3a3a;
     text-align: end;
     align-self: flex-end;
 }
+#photos {
+    column-count: 3;
+}
 }
  @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+    #photos {
+        column-count: 4;
     }
  }
  @media screen and (min-width:1200px){
@@ -223,6 +235,7 @@ color: #3a3a3a;
 #benefits > div {
     flex: 1;
 }
+
 #benefits-image{
     order: 0;
 
@@ -259,7 +272,7 @@ color: #3a3a3a;
 #photos img {
     width: 100%;
     line-height: 1em;
-    
+
 }
 #photos {
     line-height: 0;
